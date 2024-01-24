@@ -1,9 +1,13 @@
 # README
 
-rails generate scaffold Product title:string description:text image_url:string price:decimal
+```rails generate scaffold Product title:string description:text image_url:string price:decimal```
 
-rails db:migrate
+```rails db:migrate```
 
+To fix tailwind bug run: rake tailwindcss:build
+
+Seed DB: 
+```rails db:seed```
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
