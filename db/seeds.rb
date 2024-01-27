@@ -14,7 +14,6 @@ initial design through prototyping and implementation to deployment of mission-c
 image_url: 'maapis.jpg',
 price: 24.95)
 
-
 Product.create!(title: 'This is Title 2',
 description: %{<p>
 <em>BOOOORING!</em>

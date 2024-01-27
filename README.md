@@ -1,13 +1,15 @@
 # README
+Useful Commands:
 
 ```rails generate scaffold Product title:string description:text image_url:string price:decimal```
 
-```rails db:migrate```
+Run DB migration: ```rails db:migrate```
 
-To fix tailwind bug run: rake tailwindcss:build
+Seed DB: ```rails db:seed```
 
-Seed DB: 
-```rails db:seed```
+Fix tailwind bug run: ```rake tailwindcss:build```
+
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
